@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "notebooks"
+version = "0.1.0"
+description = "Machine Learning Notebooks"
+authors = ["Laszlo Csontos <github@laszlocsontos.com>"]
+license = "MIT"
+readme = "README.md"
+
+packages = [
+    { include = "util", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.10"
+numpy = "^1.25.0"
+pandas = "^2.0.2"
+scipy = "^1.10.1"
+statsmodels = "^0.14.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
