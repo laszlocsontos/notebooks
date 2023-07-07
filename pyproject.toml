@@ -20,6 +20,7 @@ matplotlib = "^3.7.1"
 scikit-learn = "^1.2.2"
 pmdarima = "^2.0.3"
 openpyxl = "^3.1.2"
+plotnine = "^0.12.1"
 
 
 [tool.poetry.group.dev.dependencies]
