@@ -26,6 +26,7 @@ seaborn = "^0.12.2"
 torch = "^2.0.1"
 torchvision = "^0.15.2"
 tensorflow = "^2.13.0"
+yfinance = "^0.2.24"
 
 
 [tool.poetry.group.dev.dependencies]
